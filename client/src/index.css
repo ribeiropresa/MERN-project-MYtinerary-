@@ -1,0 +1,249 @@
+.main {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  font-family: monospace;
+}
+.top_menus {
+  height: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ /* img.sign_in {
+  width: 50px;
+  height: 50px;
+  margin: 0 0;
+  padding-top: 3px;
+}
+.profile { 
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  background-color: rgba(210, 200, 200, 0.3);
+}
+.dynamic_menu{
+  width: 20%;
+  border: 1px solid black;
+} */
+img.logo {
+  width:95%;
+  height: 95%;
+  margin: 5px auto;
+}
+nav.navbar.default {
+  background-color: rgba(210, 200, 200, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  width: 90%;
+  min-height:2em;
+  margin: 5px auto;
+  padding: 1px 1px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+}
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+a.navbar-brand {
+  font-size: 1em;
+  background-color: rgba(210, 200, 200, 0.8);
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  height:23px;
+  padding: 0 3px;
+  color: black;
+  margin: 0 10px;
+}
+.content {
+  width: 100%;
+  height: 28em;
+  margin: 5px auto;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.information {
+  width: 90%;
+  height: 20em;
+  margin: auto;
+}
+img.cities_img {
+  width:100%;
+  height:100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.information_text {
+  background-color: rgba(210, 200, 200, 0.8);
+  border-radius: 10px 10px 10px 10px;
+  width:100%;
+  font-size: 1.25em;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+}
+a {
+  color: rgba(90, 90, 90, 0.9);
+}
+.view_cities {
+  background-color: rgba(210, 200, 200, 0.3);
+  border-radius: 5px;
+  padding: 10px 10px;  
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  margin: 5px auto;
+  width:30%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.circle_menu_img {
+  width:50px;
+  height: 50px;
+  margin: 0 0;
+}
+.circle_menu_img_reverse {
+  width:50px;
+  height: 50px;
+  margin: 0 0;
+}
+p {
+  margin: 0 0;
+  color: black;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(210, 200, 200, 0.3);
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  width: 90%;
+  height: 2.25em;
+  position:absolute;
+  bottom: 1.25em;
+  margin:0em 1.5em 0.5em 1.5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer_text {
+  position: absolute;
+  top: 0px;
+  padding-top: 5px;
+  padding-left: 35px;
+  color: rgb(0,0,0)
+}
+.cities_page {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  width: 90%;
+  height:2.25em;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+}
+input {
+  width:80%;
+  background-color: rgb(210, 200, 200, 0.3);
+  font-style: italic;
+}
+button {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  width:30%;
+  height: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.list_content {
+  margin-top: 5px;
+  height: 25em;
+}
+ul.cities_list {
+  list-style: none;
+  padding: 0 0;
+  color:rgba(90, 90, 90, 1);
+}
+li.cities_list_item, li.city_name {
+  border: 1px solid rgba(90, 90, 90, 0.9);
+  border-radius: 5px;
+  background-color: rgba(210, 200, 200, 0.3);
+  width: 50%;
+  height: 1.75em;
+  margin: 1px auto;
+  font-size: 1.25em;
+}
+.list_itineraries_content {
+  height: 19em;
+}
+.itineraries_content {
+  margin: 5px auto;
+  height: 12em;
+}
+ul.city_itineraries, ul.itineraries_list {
+  list-style: none;
+  padding: 0 0;
+  height: 5em;
+  color:rgba(90, 90, 90, 1);
+}
+li.itineraries_list_item {
+  border: 2px solid  rgba(220, 43, 0);
+  border-radius: 5px;
+  background-color: rgba(90, 90, 90, 1);
+  width: 80%;
+  height: auto;
+  text-align: center;
+
+  margin: 10px auto;
+  padding:5px 5px;
+  font-size: 1em;
+  color:rgba(255, 255, 255, 0.9);
+}
+.error {
+  font-size: 3em;
+  background-color: rgba(210, 200, 200, 0.8);
+  border-radius: 10px;
+  margin: 0 50px;
+  padding: 0 0;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+  color:rgb(20, 19, 19);
+}
+.home_img {
+  width:30px;
+  height: 30px;
+  margin: 0 0;
+}
+.profile_content {
+  width: 100%;
+  height: 28em;
+  margin: 5px auto;
+  font-family: monospace;
+  justify-content: space-around;
+}
+form.profile_form, form.login_form {
+  margin: 5px 25px;
+}
+.profile_info {
+  background-color: rgba(210, 200, 200, 0.3);
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+input.profile_box {
+  width:60%;
+  background-color: rgb(210, 200, 200, 0.3);
+  font-style: italic;
+}
+button.profile_button {
+  background-color: rgba(210, 200, 200, 0.3);
+  border-radius: 5px;
+  border: 1.15px solid rgba(90, 90, 90, 0.9);
+  width: 5em;
+  margin: 0px 115px;
+}
